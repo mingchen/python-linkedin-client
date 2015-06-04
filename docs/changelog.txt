@@ -1,5 +1,11 @@
+2015-06-04 v1.0.1
+=================
+
+* Add README.md to release package.
+
+
 2015-06-04 v1.0.0
 =================
 
-Initial release.
+* Initial release.
 
