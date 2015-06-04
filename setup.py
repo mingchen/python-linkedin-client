@@ -28,7 +28,7 @@ setup(
     packages=['python_linkedin_client'],
     url='https://github.com/mingchen/python-linkedin-client',
     download_url ='https://github.com/mingchen/python-linkedin-client/releases',
-    version='1.0.0',
+    version='1.0.1',
     install_requires=['Python >= 2.6'],
 )
 
