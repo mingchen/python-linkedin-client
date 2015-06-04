@@ -18,8 +18,7 @@ def test_get_access_token():
     # assert client.access_token is not None
 
 def test_get_profile():
-    #client = LinkedInClient('client_key', 'client_secret', 'http://localhost:9000')
-    client = LinkedInClient('75kw77mv702zs9', 'Ydp3vv7qfDOPJEPO', 'http://localhost:9000')
+    client = LinkedInClient('client_key', 'client_secret', 'http://localhost:9000')
     access_code = 'AQRPYw6Bi98VBthyFyEQbDUocmiX1NyD0Mo2HL5AgaH0275Cek3vdBdyeZOIIuc+tkH21cQwcF45WXFDBicj9IO+LLC+y9ggOkrCx2Je89A3vUIoTJZ'
     (status_code, data) = client.get_access_token(access_code)
     (status_code, data) = client.get_profile(['id', 'first-name', 'last-name', 'email-address'])
